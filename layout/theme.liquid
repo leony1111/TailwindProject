@@ -12,12 +12,12 @@
     {{ 'application.css' | asset_url | stylesheet_tag }}
     {{ 'application.js' | asset_url | script_tag }}
     <!-- drawer -->
-    {{ 'drawer.css' | asset_url | stylesheet_tag }}
+    {{ 'style.css' | asset_url | stylesheet_tag }}
 
   </head>
   <body>
     <!-- drawer -->
-      {% section 'drawer' %}
+      {% section 'cart-drawer' %}
     <!-- end drawer -->
 
     {% section 'header' %}
@@ -26,6 +26,6 @@
     </main>
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
-    {{ 'drawer.js' | asset_url | script_tag }}
+    {{ 'scripts.js' | asset_url | script_tag }}
   </body>
 </html>
