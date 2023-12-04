@@ -6,20 +6,20 @@
                 "title": {
                     "type": "article_title"
                 },
-                "author":{
+                "author": {
                     "type": "article_author"
                 },
-                "published_date":{
+                "published_date": {
                     "type": "article_published_date"
                 },
-                "thumbnail":{
+                "thumbnail": {
                     "type": "featured_image"
                 },
-                "content":{
+                "content": {
                     "type": "article_content"
                 }
             },
-            "block_order": ["thumbnail","author","published_date","title","content"] 
+            "block_order": ["thumbnail","title","published_date","author","content"]
         }
     },
     "order": ["template"]
